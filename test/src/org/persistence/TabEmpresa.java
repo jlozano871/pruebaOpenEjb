@@ -15,6 +15,8 @@ import java.sql.Timestamp;
 public class TabEmpresa implements Serializable {
 	private static final long serialVersionUID = 1L;
 
+	// test jose
+
 	@Id
 	@Column(name="emp_id")
 	private String empId;
