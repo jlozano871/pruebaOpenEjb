@@ -1,0 +1,54 @@
+catalina-6.0.13.jar (optional)
+ annotations-api-6.0.13.jar
+ juli-6.0.13.jar
+ servlet-api-6.0.13.jar
+geronimo-javamail_1.4_mail-1.2.jar
+javaee-api-5.0-1.jar
+openejb-client-3.0.jar
+openejb-core-3.0.jar
+ activemq-core-4.1.1.jar
+  activeio-core-3.0.0-incubator.jar
+  backport-util-concurrent-2.1.jar
+ activemq-ra-4.1.1.jar
+ asm-2.2.3.jar
+ asm-commons-2.2.3.jar
+  asm-tree-2.2.3.jar
+ commons-cli-1.1.jar
+ commons-collections-3.2.jar
+ commons-dbcp-all-1.3.jar
+ commons-lang-2.1.jar
+ commons-logging-1.1.jar
+ geronimo-connector-2.1.jar
+ geronimo-transaction-2.1.jar
+ howl-1.0.1-1.jar
+ log4j-1.2.12.jar
+ openejb-javaagent-3.0.jar
+ openejb-jee-3.0.jar
+  jaxb-impl-2.0.5.jar
+ openjpa-1.0.1.jar
+ serp-1.13.1.jar
+ xbean-finder-3.4-r636442.jar
+ xbean-naming-3.3.jar
+ xbean-reflect-3.4-r636442.jar
+openejb-cxf-3.0.jar
+ cxf-bundle-2.0.4-incubator.jar
+  XmlSchema-1.3.2.jar
+  neethi-2.0.2.jar
+  saaj-impl-1.3.jar
+  slf4j-api-1.3.1.jar
+  slf4j-jdk14-1.3.1.jar
+  wstx-asl-3.2.1.jar
+ wsdl4j-1.6.1.jar
+ xml-resolver-1.2.jar
+openejb-ejbd-3.0.jar
+openejb-hsql-3.0.jar
+ hsqldb-1.8.0.7.jar
+ openejb-loader-3.0.jar
+openejb-http-3.0.jar
+openejb-server-3.0.jar
+openejb-telnet-3.0.jar
+openejb-tomcat-catalina-3.0.jar
+openejb-tomcat-common-3.0.jar
+openejb-tomcat-loader-3.0.jar
+openejb-webservices-3.0.jar
+swizzle-stream-1.0.1.jar

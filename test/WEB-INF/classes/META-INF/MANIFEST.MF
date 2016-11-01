@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Created-By: 1.5.0_13 (Apple Inc.)
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bnd-LastModified: 1207863848491
+Bundle-Version: 3.0
+Bundle-Description: Apache OpenEJB is an open source, modular, configu
+ rable and extendable EJB Container System and EJB Server.
+Bundle-Name: openejb-tomcat-webapp
+Private-Package: WEB-INF;version="3.0",images;version="3.0",tomcat;ver
+ sion="3.0"
+Bundle-DocURL: http://openejb.apache.org
+Bundle-ManifestVersion: 2
+Bundle-Vendor: The Apache OpenEJB development community
+Implementation-Title: Apache OpenEJB
+Bundle-SymbolicName: org.apache.openejb.openejb-tomcat-webapp
+Tool: Bnd-0.0.227
+Implementation-Version: 3.0
+

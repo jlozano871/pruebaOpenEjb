@@ -1,0 +1,64 @@
+<dependencies>
+  <dependency groupId="org.apache.geronimo.javamail" artifactId="geronimo-javamail_1.4_mail" version="1.2" file-name="geronimo-javamail_1.4_mail-1.2.jar"/>
+  <dependency groupId="org.apache.openejb" artifactId="javaee-api" version="5.0-1" file-name="javaee-api-5.0-1.jar"/>
+  <dependency groupId="org.apache.openejb" artifactId="openejb-client" version="3.0" file-name="openejb-client-3.0.jar"/>
+  <dependency groupId="org.apache.openejb" artifactId="openejb-core" version="3.0" file-name="openejb-core-3.0.jar">
+    <dependency groupId="asm" artifactId="asm" version="2.2.3" file-name="asm-2.2.3.jar"/>
+    <dependency groupId="asm" artifactId="asm-commons" version="2.2.3" file-name="asm-commons-2.2.3.jar">
+      <dependency groupId="asm" artifactId="asm-tree" version="2.2.3" file-name="asm-tree-2.2.3.jar"/>
+    </dependency>
+    <dependency groupId="commons-cli" artifactId="commons-cli" version="1.1" file-name="commons-cli-1.1.jar"/>
+    <dependency groupId="commons-collections" artifactId="commons-collections" version="3.2" file-name="commons-collections-3.2.jar"/>
+    <dependency groupId="commons-lang" artifactId="commons-lang" version="2.1" file-name="commons-lang-2.1.jar"/>
+    <dependency groupId="commons-logging" artifactId="commons-logging" version="1.1" file-name="commons-logging-1.1.jar"/>
+    <dependency groupId="log4j" artifactId="log4j" version="1.2.12" file-name="log4j-1.2.12.jar"/>
+    <dependency groupId="net.sourceforge.serp" artifactId="serp" version="1.13.1" file-name="serp-1.13.1.jar"/>
+    <dependency groupId="org.apache.activemq" artifactId="activemq-core" version="4.1.1" file-name="activemq-core-4.1.1.jar">
+      <dependency groupId="backport-util-concurrent" artifactId="backport-util-concurrent" version="2.1" file-name="backport-util-concurrent-2.1.jar"/>
+      <dependency groupId="org.apache.activemq" artifactId="activeio-core" version="3.0.0-incubator" file-name="activeio-core-3.0.0-incubator.jar"/>
+    </dependency>
+    <dependency groupId="org.apache.activemq" artifactId="activemq-ra" version="4.1.1" file-name="activemq-ra-4.1.1.jar"/>
+    <dependency groupId="org.apache.geronimo.components" artifactId="geronimo-connector" version="2.1" file-name="geronimo-connector-2.1.jar"/>
+    <dependency groupId="org.apache.geronimo.components" artifactId="geronimo-transaction" version="2.1" file-name="geronimo-transaction-2.1.jar"/>
+    <dependency groupId="org.apache.openejb" artifactId="commons-dbcp-all" version="1.3" file-name="commons-dbcp-all-1.3.jar"/>
+    <dependency groupId="org.apache.openejb" artifactId="openejb-javaagent" version="3.0" file-name="openejb-javaagent-3.0.jar"/>
+    <dependency groupId="org.apache.openejb" artifactId="openejb-jee" version="3.0" file-name="openejb-jee-3.0.jar">
+      <dependency groupId="com.sun.xml.bind" artifactId="jaxb-impl" version="2.0.5" file-name="jaxb-impl-2.0.5.jar"/>
+    </dependency>
+    <dependency groupId="org.apache.openejb" artifactId="xbean-finder" version="3.4-r636442" file-name="xbean-finder-3.4-r636442.jar"/>
+    <dependency groupId="org.apache.openejb" artifactId="xbean-reflect" version="3.4-r636442" file-name="xbean-reflect-3.4-r636442.jar"/>
+    <dependency groupId="org.apache.openjpa" artifactId="openjpa" version="1.0.1" file-name="openjpa-1.0.1.jar"/>
+    <dependency groupId="org.apache.xbean" artifactId="xbean-naming" version="3.3" file-name="xbean-naming-3.3.jar"/>
+    <dependency groupId="org.objectweb.howl" artifactId="howl" version="1.0.1-1" file-name="howl-1.0.1-1.jar"/>
+  </dependency>
+  <dependency groupId="org.apache.openejb" artifactId="openejb-cxf" version="3.0" file-name="openejb-cxf-3.0.jar">
+    <dependency groupId="org.apache.cxf" artifactId="cxf-bundle" version="2.0.4-incubator" file-name="cxf-bundle-2.0.4-incubator.jar">
+      <dependency groupId="com.sun.xml.messaging.saaj" artifactId="saaj-impl" version="1.3" file-name="saaj-impl-1.3.jar"/>
+      <dependency groupId="org.apache.neethi" artifactId="neethi" version="2.0.2" file-name="neethi-2.0.2.jar"/>
+      <dependency groupId="org.apache.ws.commons.schema" artifactId="XmlSchema" version="1.3.2" file-name="XmlSchema-1.3.2.jar"/>
+      <dependency groupId="org.codehaus.woodstox" artifactId="wstx-asl" version="3.2.1" file-name="wstx-asl-3.2.1.jar"/>
+      <dependency groupId="org.slf4j" artifactId="slf4j-api" version="1.3.1" file-name="slf4j-api-1.3.1.jar"/>
+      <dependency groupId="org.slf4j" artifactId="slf4j-jdk14" version="1.3.1" file-name="slf4j-jdk14-1.3.1.jar"/>
+    </dependency>
+    <dependency groupId="wsdl4j" artifactId="wsdl4j" version="1.6.1" file-name="wsdl4j-1.6.1.jar"/>
+    <dependency groupId="xml-resolver" artifactId="xml-resolver" version="1.2" file-name="xml-resolver-1.2.jar"/>
+  </dependency>
+  <dependency groupId="org.apache.openejb" artifactId="openejb-ejbd" version="3.0" file-name="openejb-ejbd-3.0.jar"/>
+  <dependency groupId="org.apache.openejb" artifactId="openejb-hsql" version="3.0" file-name="openejb-hsql-3.0.jar">
+    <dependency groupId="hsqldb" artifactId="hsqldb" version="1.8.0.7" file-name="hsqldb-1.8.0.7.jar"/>
+    <dependency groupId="org.apache.openejb" artifactId="openejb-loader" version="3.0" file-name="openejb-loader-3.0.jar"/>
+  </dependency>
+  <dependency groupId="org.apache.openejb" artifactId="openejb-http" version="3.0" file-name="openejb-http-3.0.jar"/>
+  <dependency groupId="org.apache.openejb" artifactId="openejb-server" version="3.0" file-name="openejb-server-3.0.jar"/>
+  <dependency groupId="org.apache.openejb" artifactId="openejb-telnet" version="3.0" file-name="openejb-telnet-3.0.jar"/>
+  <dependency groupId="org.apache.openejb" artifactId="openejb-tomcat-catalina" version="3.0" file-name="openejb-tomcat-catalina-3.0.jar"/>
+  <dependency groupId="org.apache.openejb" artifactId="openejb-tomcat-common" version="3.0" file-name="openejb-tomcat-common-3.0.jar"/>
+  <dependency groupId="org.apache.openejb" artifactId="openejb-tomcat-loader" version="3.0" file-name="openejb-tomcat-loader-3.0.jar"/>
+  <dependency groupId="org.apache.openejb" artifactId="openejb-webservices" version="3.0" file-name="openejb-webservices-3.0.jar"/>
+  <dependency groupId="org.apache.tomcat" artifactId="catalina" version="6.0.13" file-name="catalina-6.0.13.jar" optional="true">
+    <dependency groupId="org.apache.tomcat" artifactId="annotations-api" version="6.0.13" file-name="annotations-api-6.0.13.jar"/>
+    <dependency groupId="org.apache.tomcat" artifactId="juli" version="6.0.13" file-name="juli-6.0.13.jar"/>
+    <dependency groupId="org.apache.tomcat" artifactId="servlet-api" version="6.0.13" file-name="servlet-api-6.0.13.jar"/>
+  </dependency>
+  <dependency groupId="org.codehaus.swizzle" artifactId="swizzle-stream" version="1.0.1" file-name="swizzle-stream-1.0.1.jar"/>
+</dependencies>
